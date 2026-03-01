@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <style type="text/css">
+        /* ── Тёмная тема ── */
+        @media (prefers-color-scheme: dark) {
+            body, table, td { background-color: #1a1b1e !important; }
+            .t-main    { color: #f1f5f9 !important; }
+            .t-name    { color: #e2e8f0 !important; }
+            .t-role    { color: #94a3b8 !important; }
+            .t-company { color: #f1f5f9 !important; }
+            .t-link    { color: #38bdf8 !important; }
+            .t-slash   { color: #64748b !important; }
+            .t-divider { background-color: #334155 !important; }
+            .t-bottom  { color: #94a3b8 !important; }
+        }
+
+        /* ── Мобильные устройства ≤ 600px ── */
+        @media screen and (max-width: 600px) {
+            .t-outer { width: 100% !important; }
+
+            .col-logo,
+            .col-divider,
+            .col-info {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .col-logo {
+                text-align: center !important;
+                padding: 0 0 14px 0 !important;
+            }
+
+            .col-divider {
+                padding: 0 0 14px 0 !important;
+            }
+            .col-divider .t-divider {
+                width: 100% !important;
+                height: 2px !important;
+            }
+
+            .col-info { padding-left: 0 !important; }
+
+            .t-bottom { display: block !important; width: 100% !important; }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #ffffff;">
+    <table class="t-outer" cellpadding="0" cellspacing="0" border="0" style="font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6; color: #333333; max-width: 650px; background-color: transparent;">
+        <tr>
+            <td class="col-logo" width="150" align="center" valign="middle" style="padding-right: 20px;">
+                <img src="https://raw.githubusercontent.com/konigunited/email-signature-images/master/Logo.png" alt="СБК" width="140" style="display: block; width: 140px; height: auto; border: none;" />
+            </td>
+
+            <td class="col-divider" width="20" align="center" valign="middle">
+                <div class="t-divider" style="width: 2px; height: 110px; background-color: #E2E8F0;"></div>
+            </td>
+
+            <td class="col-info" valign="middle" style="padding-left: 15px;">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                        <td class="t-main" style="font-size: 14px; font-weight: 600; padding-bottom: 8px; color: #1E293B;">
+                            С уважением,
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="t-name" style="font-size: 14px; padding-bottom: 2px; color: #334155;">
+                            Моисеев Евгений Вячеславович
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="t-role" style="font-size: 13px; font-style: italic; color: #94A3B8; padding-bottom: 6px;">
+                            Генеральный директор
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="t-company" style="font-size: 13px; color: #475569; padding-bottom: 4px;">
+                            ООО «СИСТЕМЫ БЕЗОПАСНОСТИ И КОММУНИКАЦИИ»
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 13px; padding-bottom: 8px;">
+                            <a href="http://www.sbk-com.ru" class="t-link" style="color: #60A5FA; text-decoration: none;">www.sbk-com.ru</a>
+                            <span class="t-slash" style="color: #CBD5E1; margin: 0 4px;">/</span>
+                            <a href="mailto:emv@sbk-com.ru" class="t-link" style="color: #60A5FA; text-decoration: none;">emv@sbk-com.ru</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="t-main" style="font-size: 13px; font-weight: bold; color: #1E293B;">
+                                        +7 926 231-10-53
+                                    </td>
+                                    <td class="t-slash" style="color: #CBD5E1; padding: 0 6px;">/</td>
+                                    <td class="t-main" style="font-size: 13px; font-weight: bold; color: #1E293B; padding-right: 12px;">
+                                        +7 495 144-07-34
+                                    </td>
+                                    <td width="26" align="center" style="padding-right: 4px;">
+                                        <a href="https://t.me/sbc_com_bot" target="_blank" style="text-decoration: none; display: block;">
+                                            <img src="https://raw.githubusercontent.com/konigunited/email-signature-images/master/Telegram.png" alt="Telegram" width="22" height="22" style="display: block; border: none; width: 22px; height: 22px;">
+                                        </a>
+                                    </td>
+                                    <td width="26" align="center">
+                                        <a href="https://max.ru/id7751291099_bot" target="_blank" style="text-decoration: none; display: block;">
+                                            <img src="https://raw.githubusercontent.com/konigunited/email-signature-images/master/Max.png" alt="Max" width="22" height="22" style="display: block; border: none; width: 22px; height: 22px;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="t-bottom" style="padding-top: 20px; color: #94A3B8; font-size: 11px; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase;">
+                СКУД &nbsp;&nbsp; СВН &nbsp;&nbsp; СКС &nbsp;&nbsp; СОС &nbsp;&nbsp; СОП &nbsp;&nbsp; СОУЭ &nbsp;&nbsp; ИБ &nbsp;&nbsp; IT &nbsp;&nbsp; ВОЛС &nbsp;&nbsp; СС &nbsp;&nbsp; WiFi &nbsp;&nbsp; ЭОМ &nbsp;&nbsp; АСУД
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
